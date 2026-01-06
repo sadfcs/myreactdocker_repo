@@ -6,8 +6,8 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const connNode = () =>{
-    fatch('http://10.0.20.6:3001')
-    .thed(()=>{
+    fetch('http://10.0.20.6:3001')
+    .then(()=>{
       alert("성공")
     })
     .catch(()=>{
